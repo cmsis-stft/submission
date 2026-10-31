@@ -15,7 +15,7 @@ CMSIS-STFT is a lightweight, memory-efficient Short-Time Fourier Transform (STFT
 - Build and flash the code into the microcontroller
 - For examples refer to [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples)
 
-## Stream data with GUI
+## Stream and log data with GUI
 - Connect your hardware via USB to the desktop application [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger).
 - Stream, view, and plot real-time frequency magnitude outputs live on your screen.
 - Log captured streams to disk for deeper offline debugging and performance analysis.
