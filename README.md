@@ -1,12 +1,13 @@
 # CMSIS-STFT Library
 CMSIS-STFT is a lightweight, memory-efficient Short-Time Fourier Transform (STFT) library optimized for ARM Cortex-M microcontrollers using the CMSIS-DSP (arm_math.h) framework.
 
-Getting Started & Resources
-See Implementation Examples: Check out the [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples) repository for complete STM32F407 example firmware and STM32CubeIDE projects.
+## Getting Started & Resources
 
-Visualize Real-Time Data: Use the [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger) desktop application to receive, plot, and log your STFT output over USB.
+*See Implementation Examples*: Check out the [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples) repository for complete STM32F407 example firmware and STM32CubeIDE projects.
 
-Verify and Reproduce Results: Reference the [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) repository for test-signal generators and verification scripts matching MATLAB's spectrogram function.
+*Visualize Real-Time Data*: Use the [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger) desktop application to receive, plot, and log your STFT output over USB.
+
+*Verify and Reproduce Results*: Reference the [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) repository for test-signal generators and verification scripts matching MATLAB's spectrogram function.
 
 | File | Purpose |
 |---|---|
