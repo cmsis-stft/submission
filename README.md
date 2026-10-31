@@ -9,17 +9,21 @@ CMSIS-STFT is a lightweight, memory-efficient Short-Time Fourier Transform (STFT
 
 **Verify and Reproduce Results**: Reference the [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) repository for test-signal generators and verification scripts matching MATLAB's spectrogram function.
 
-## Requirements
-- CMSIS-DSP 5.9.0 (not included)
-- STM32CubeIDE, for the examples
-- Python 3, for the datalogger (optional)
-- MATLAB with the Signal Processing Toolbox, for verification (optional)
+## Usage
+- Import the header and source files from [cmsis-stft](https://github.com/cmsis-stft/cmsis_stft/tree/main)
+- Include the library header in your main application file and use the API's to configure the STFT.
+- Build and flash the code into the microcontroller
+- For examples refer to [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples)
 
-## Workflow
-1. Generate the test signals with [cmsis-stft_matlab/Test_Signal_Generator.m](https://github.com/cmsis-stft/cmsis-stft_matlab/tree/main/Test_Signal_Generator.m).
-2. Build and flash an example from [cmsis-stft_examples](https://github.com/cmsis-stft/cmsis-stft_examples).
-3. Capture the output with [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger). This saves an `.xlsx` file. (optional)
-4. Compare it against MATLAB with [cmsis-stft_matlab/MATLAB_STFT_Verify.m](https://github.com/cmsis-stft/cmsis-stft_matlab/tree/main/MATLAB_STFT_Verify.m). (optional)
+## Stream data with GUI
+- Connect your hardware via USB to the desktop application [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger).
+- Stream, view, and plot real-time frequency magnitude outputs live on your screen.
+- Log captured streams to disk for deeper offline debugging and performance analysis.
+
+## Evaluate
+- Use the MATLAB scripts in [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) to generate reference test signals.
+- Compare your embedded STFT results directly against MATLAB's built-in spectrogram function.
+- Validate numerical precision and output correctness across F32, Q15, and Q31 paths.
 
 ## Library Files
 
