@@ -36,7 +36,6 @@ To set the hop length directly, pass `overlap_percent = -1` and give the hop as 
 ## Supporting files
 | Folder | Description |
 |---|---|
-|[cmsis_stft](https://github.com/cmsis-stft/cmsis_stft/tree/main) | The library (`inc/` headers, `src/` source) |
 | [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples) | STM32F407 example firmware (STM32CubeIDE projects) |
 | [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger) | PC application that receives, plots and logs the STFT output over USB |
 | [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) | Test-signal generator and verification script (reference: MATLAB `spectrogram`) |
