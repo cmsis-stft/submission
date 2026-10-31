@@ -1,4 +1,12 @@
 # CMSIS-STFT Library
+CMSIS-STFT is a lightweight, memory-efficient Short-Time Fourier Transform (STFT) library optimized for ARM Cortex-M microcontrollers using the CMSIS-DSP (arm_math.h) framework.
+
+Getting Started & Resources
+See Implementation Examples: Check out the [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples) repository for complete STM32F407 example firmware and STM32CubeIDE projects.
+
+Visualize Real-Time Data: Use the [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger) desktop application to receive, plot, and log your STFT output over USB.
+
+Verify and Reproduce Results: Reference the [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) repository for test-signal generators and verification scripts matching MATLAB's spectrogram function.
 
 | File | Purpose |
 |---|---|
@@ -31,11 +39,3 @@ stft_adc_to_f32(adc_samples, input, BUF_LEN, ADC_OFFSET, ADC_BITS);  /* optional
 stft_f32(&stft, input);                                              /* call once per buffer */
 ```
 
-To set the hop length directly, pass `overlap_percent = -1` and give the hop as the last argument.
-
-## Supporting files
-| Folder | Description |
-|---|---|
-| [cmsis-stft-examples](https://github.com/cmsis-stft/cmsis-stft_examples) | STM32F407 example firmware (STM32CubeIDE projects) |
-| [pc_datalogger](https://github.com/cmsis-stft/pc_datalogger) | PC application that receives, plots and logs the STFT output over USB |
-| [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) | Test-signal generator and verification script (reference: MATLAB `spectrogram`) |
