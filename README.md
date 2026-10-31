@@ -9,6 +9,8 @@ CMSIS-STFT is a lightweight, memory-efficient Short-Time Fourier Transform (STFT
 
 **Verify and Reproduce Results**: Reference the [cmsis-stft_matlab](https://github.com/cmsis-stft/cmsis-stft_matlab) repository for test-signal generators and verification scripts matching MATLAB's spectrogram function.
 
+## Library Files
+
 | File | Purpose |
 |---|---|
 | [inc/cmsis_stft.h](https://github.com/cmsis-stft/cmsis_stft/blob/main/inc/cmsis_stft.h) | Public API, types and sizing macros |
