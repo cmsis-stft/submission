@@ -2,9 +2,9 @@
 
 | File | Purpose |
 |---|---|
-| `inc/cmsis_stft.h` | Public API, types and sizing macros |
-| `inc/stft_port.h` | Core and FPU detection, alignment macro, FFT length limits (32–4096) |
-| `src/cmsis_stft.c` | Implementation |
+| [inc/cmsis_stft.h]() | Public API, types and sizing macros |
+| [inc/stft_port.h]() | Core and FPU detection, alignment macro, FFT length limits (32–4096) |
+| [src/cmsis_stft.c]() | Implementation |
 
 **Features**
 - F32, Q15 and Q31 processing paths.
